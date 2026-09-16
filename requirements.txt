@@ -1,0 +1,22 @@
+# Web UI & Environment
+gradio~=6.23.1
+python-dotenv~=1.2.2
+
+# Data Processing
+pandas~=3.0.5
+numpy~=2.5.1
+tqdm~=4.70.0
+
+# NLP, Embeddings & Vector Store
+torch
+transformers~=5.14.1
+sentence-transformers
+langchain-community~=0.4.2
+langchain-huggingface~=1.2.2
+langchain-chroma~=1.1.0
+langchain-text-splitters
+
+# Exploratory / Notebook Tools (Optional if only running dashboard.py)
+kagglehub~=1.0.2
+seaborn~=0.13.2
+matplotlib~=3.11.1
